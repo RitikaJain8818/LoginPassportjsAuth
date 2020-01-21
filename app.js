@@ -13,16 +13,16 @@ require('./config/passport')(passport);
 const db=require('./config/keys').MongoURI;
 
 //Connect to Mongo
-const MongoClient = require('mongodb').MongoClient;
+/*const MongoClient = require('mongodb').MongoClient;
 const client = new MongoClient(db, { useNewUrlParser: true ,useUnifiedTopology: true});
 client.connect(err => {
   const collection = client.db("test").collection("users");
  // perform actions on the collection object
   client.close();
-});
-//mongoose.connect(db, {useNewUrlParser: true})
-    //.then(() => console.log('MongoDB Connected....'))
-   // .catch(err=>console.log(err));
+});*/
+mongoose.connect('mongodb://localhost/db')
+    .then(() => console.log('MongoDB Connected....'))
+    .catch(err=>console.log(err));
 
 //EJS
 app.use(expressLayouts);
