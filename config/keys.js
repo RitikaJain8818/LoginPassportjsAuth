@@ -1,3 +1,5 @@
-module.exports={
-    MongoURI: 'mongodb+srv://ritikajain:bootstrap@cluster0-uvuct.mongodb.net/test?retryWrites=true'
-}
+dbPassword = 'mongodb+srv://USERNAME_HERE:'+ encodeURIComponent('PASSWORD_HERE') + '@CLUSTER_NAME_HERE.mongodb.net/test?retryWrites=true';
+
+module.exports = {
+    MongoURI: dbPassword
+};
