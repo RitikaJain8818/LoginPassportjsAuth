@@ -2,10 +2,10 @@ User login and registration app using Nodejs | Express | Passport | Mongoose | E
 
 Run commands:
 
-Usage                                                                                                                                                            
+Usage                                                                                                                                                      
 $ npm install                                                                                                                            
 $ npm start                                                                                                                               
-//Run with Nodemon                                                                                                                         
+//run with Nodemon                                                                                                                         
 $ nodemon run
 
 //Visit http://localhost:8000                                                                                                                                                                                         
