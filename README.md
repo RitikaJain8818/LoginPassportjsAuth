@@ -5,9 +5,11 @@ Run commands:
 Usage                                                                                                                                                      
 $ npm install                                                                                                                            
 $ npm start                                                                                                                               
-//run with Nodemon                                                                                                                         
+//run with Nodemon                                                                                                                    
 $ nodemon run
 
 //Visit http://localhost:8000                                                                                                                                                                                         
-MongoDB                                                                                                                                   
+Database Configuration Commands
+
+MongoDB                                                                                                                                 
 Open "config/keys.js" and add your MongoDB URI, local or Atlas
